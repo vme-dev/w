@@ -1,0 +1,267 @@
+@import "~normalize.css"
+@import "../fonts/font-awesome-4.7.0/scss/font-awesome.scss"
+@import "fonts"
+@import "libs"
+@import "base"
+@import "vars"
+
+.head 
+    width: 100%
+    height: 100vh
+    background: linear-gradient(to bottom, rgba(175,175,175,0) 0%, rgba(255,255,255,0) 76%, rgba(255,255,255,1) 100%),url(../img/head-bg.jpg)
+    background-position: center
+    background-size: cover
+    position: relative
+   
+.header
+    color: $second-text
+
+.logo
+    display: inline-block
+    width: 49%
+    font-size:  28px
+    font-weight: bold
+
+.auth-menu
+    display: inline-block
+    width: 50%
+    text-align: right
+    font-weight: 600
+.auth-text
+    display: inline-block
+.sign-link
+    display: inline-block
+    margin-left: 14px
+    height: 42px
+    line-height: 42px
+    padding: 0px 26px
+    border: 1px solid $second-text
+    border-radius: 5px
+    &:hover
+        background: rgba(255,255,255,.5)
+    &:active
+        background: rgba(50,50,50,.1)
+
+.wrap-head
+    
+.main-title
+    width: 455px
+    margin: 0px
+    padding: 0px 55px
+    line-height: 1.2
+    font-size: 40px
+    font-weight: 600
+    text-align: center
+
+.find-form
+    width: 455px
+    border-radius: 5px
+    overflow: hidden
+    
+.form
+    padding: 50px 63px 40px
+    background-color: #ffffff
+
+.head .title
+    margin: 0
+    height: 68px
+    background: $blue
+    line-height: 68px
+    font-size: 18px
+    font-weight: bold
+    text-align: center
+    text-transform: uppercase
+    color: #ffffff
+
+.head .description
+    margin-bottom: 30px
+    font-size: 18px
+    font-weight: 500
+    text-align: center
+
+.form-block
+    margin-bottom: 20px
+    font-weight: 600
+    
+.form-label
+
+.form-input 
+    margin-left: 8px
+    padding: 0px 11px
+    height: 40px
+    border: 0px
+    background-color: #efefef
+    color: $main-txt
+    font-weight: 600
+    outline-style: none
+    &[name="name"]
+        width: 160px
+    &::placeholder
+        font-weight: 600
+        color: #4f4f4f
+    &:focus
+        border: 0px
+
+
+.button 
+.form-submit
+    display: block
+    margin: 0px auto
+    text-align: center
+    background-color: $blue
+    color: #ffffff
+    border: 0px
+    height: 40px
+    line-height: 40px
+    padding: 0px 32px
+    outline-style: none
+
+.intro
+    text-align: center
+    padding-bottom: 80px
+.wrap-intro
+    
+.intro .title
+    margin: 0px
+    margin-bottom: 20px
+    font-size: 26px
+    font-weight: 600
+.intro .description
+    margin-bottom: 90px
+.steps
+.steps-list
+    margin: 0px
+    padding: 0px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+.steps-item
+    width: 25%
+    padding-top: 90px
+.steps .title
+    margin-bottom: 10px
+    font-size: 20px
+    font-weight: bold
+    color: $blue
+.steps .descroption
+
+
+.testimonials
+    width: 100%
+    height: 100vh
+    background: url(../img/testemonials-bg.jpg)
+    background-position: center
+    background-size: cover
+    position: relative
+    &::before
+        content: ''
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%)
+        opacity: 0.7
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+       
+    .content
+        position: relative
+        z-index: 1
+
+.wrap-testimonials
+    text-align: center
+    color: $main-txt
+
+.testimonials
+    .title
+        margin: 0px 
+        margin-bottom: 5px
+        font-size: 26px
+        font-weight: bold
+    .description
+        margin-bottom: 50px
+
+.wrap-list
+    padding: 0px 65px
+    position: relative
+.testimonials-list
+    margin: 0px
+    padding: 0px
+    display: flex
+    text-align: left
+
+.testimonials-item
+    padding: 0px $gutter
+    width: 50%
+.comment
+
+.author-block
+    padding-left: 52px
+    position: relative
+    z-index: 3
+    &::before
+        content: ''
+        width: 38px
+        height: 38px
+        background: #ffffff
+        position: absolute
+        top: 0
+        left: 0
+        
+        
+
+.author-name
+    font-weight: bold
+    font-size: 14px
+.author-location
+
+.controls
+    position: absolute
+    top: 25px
+    left: 0px
+    right: 0px
+    .angle
+        position: absolute   
+        &.right
+            right: 25px
+        &.left
+            left: 25px
+
+.stories
+    .title
+        margin: 0px 
+        margin-bottom: 5px
+        font-size: 26px
+        font-weight: bold
+    .description
+        width: 430px
+        margin: 0px auto
+        margin-bottom: 50px
+    .bold
+        font-weight: bold
+
+.wrap-stories
+    text-align: center
+    color: $main-txt
+
+.stories-list
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0px
+    margin: 0px
+
+.stories-item
+    width: 33%
+
+    .title
+        font-size: 22px
+    .description
+        width: auto
+        text-align: left
+        font-size: 14px
+        .text
+        .time
+.img-block
+.stories-img
+    
+@import "media"
